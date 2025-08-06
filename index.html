@@ -1,14 +1,102 @@
 <!-- index.html -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>웹 호스팅</title>
+  <meta charset="UTF-8">
+  <title>경기 영상 모음</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .set-section {
+      margin-bottom: 40px;
+    }
+
+    .set-title {
+      font-size: 24px;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    .video-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .video-item {
+      flex: 1 1 300px;
+      max-width: 480px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 270px;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-    1세트_1_팽팽한바텀\n
-    https://youtu.be/cxSaLEXXvNc
+
+  <h1>경기 영상 모음</h1>
+
+  <!-- 1세트 -->
+  <div class="set-section">
+    <div class="set-title">1세트</div>
+    <div class="video-container">
+      <div class="video-item">
+        <div>1세트_1_팽팽한바텀</div>
+        <iframe src="https://youtu.be/cxSaLEXXvNc" allowfullscreen></iframe>
+      </div>
+      <div class="video-item">
+        <div>1세트_2_3대3교전승리</div>
+        <iframe src="https://youtu.be/iboSilArMeY" allowfullscreen></iframe>
+      </div>
+      <div class="video-item">
+        <div>1세트_3_트페궁을끊어내고</div>
+        <iframe src="https://youtu.be/SnYyCyPtJro" allowfullscreen></iframe>
+      </div>
+      <div class="video-item">
+        <div>1세트_4_탱크들의싸움</div>
+        <iframe src="https://youtu.be/9O0Pd905His" allowfullscreen></iframe>
+      </div>
+      <div class="video-item">
+        <div>1세트_5_페이커충격파 구마유시펜타킬</div>
+        <iframe src="https://youtu.be/bu1fCu_SDDk" allowfullscreen></iframe>
+      </div>
+      <div class="video-item">
+        <div>1세트_6_마지막한타</div>
+        <iframe src="https://youtu.be/233daCoaC2Y" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2세트 -->
+  <div class="set-section">
+    <div class="set-title">2세트</div>
+    <div class="video-container">
+      <div class="video-item">
+        <div>2세트_1</div>
+        <iframe src="https://youtu.be/233daCoaC2Y" allowfullscreen></iframe>
+      </div>
+      <div class="video-item">
+        <div>2세트_2</div>
+        <iframe src="https://youtu.be/233daCoaC2Y" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- 필요시 계속 추가 -->
+  <!-- 3세트, 4세트 등 -->
+
 </body>
 </html>
